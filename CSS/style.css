@@ -53,8 +53,25 @@ hr{
   width:  12vw;
 }
 
+.modul-a, .modul-b{
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Mulish', sans-serif;
+}
 
-/*
-font-family: 'Mulish', sans-serif;
-*/
+.modul-a{
+  
+  color: #606060;
+}
 
+.modul-b{
+  background-color: #606060;
+  color: #d2ba87;
+
+}
+
+.modul-title{
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;  
+  padding: 1rem;
+}
