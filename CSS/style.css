@@ -1,3 +1,57 @@
 *{
   box-sizing: border-box;
 }
+
+.gray-background{
+  background-image: url("https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png");
+}
+
+.cover{
+  display: table;
+  background: url("https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.wrapper{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.textbox{
+  width: 50vw; 
+  height: 50vh;
+  margin: 0px auto;
+  text-align: center;
+  color: whitesmoke;
+  background-color: hsla(100,0%,0%,.6);
+  font-family: 'Libre Baskerville', serif;
+}
+
+.textbox h1{
+  color: #d2ba87;
+  font-family: 'Great Vibes', cursive;
+  font-size: 6rem;
+}
+
+.textbox{
+  padding: 1.2rem;
+}
+.textbox h2, .textbox h3{
+  padding: 0.3rem;
+}
+
+.textbox h1{
+  padding: 1rem;
+}
+
+hr{
+  width:  12vw;
+}
+
+
+/*
+font-family: 'Mulish', sans-serif;
+*/
+
