@@ -21,29 +21,32 @@
 
 .textbox{
   width: 50vw; 
-  height: 50vh;
-  margin: 0px auto;
+  height: auto;
+  margin: 0 auto;
   text-align: center;
   color: whitesmoke;
-  background-color: hsla(100,0%,0%,.6);
+  background-color: hsla(100,0%,0%,0.6);
   font-family: 'Libre Baskerville', serif;
 }
 
-.textbox h1{
+.headline{
   color: #d2ba87;
   font-family: 'Great Vibes', cursive;
-  font-size: 6rem;
+  font-size: 5rem;
 }
 
 .textbox{
   padding: 1.2rem;
 }
-.textbox h2, .textbox h3{
-  padding: 0.3rem;
+
+.headline{
+  padding: 1rem;
 }
 
-.textbox h1{
-  padding: 1rem;
+.byline, .tagline{
+  padding: 0.3rem;
+  font-size: 1rem;
+  letter-spacing: 0.5rem;
 }
 
 hr{
