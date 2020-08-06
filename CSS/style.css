@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+body {
+  /*overflow-y: hidden; Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
 .gray-background{
   background-image: url("https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png");
 }
@@ -20,37 +25,31 @@
 }
 
 .textbox{
-  width: 50vw; 
+  width: 100vw; 
   height: auto;
   margin: 0 auto;
+  padding: 1rem;
   text-align: center;
   color: whitesmoke;
   background-color: hsla(100,0%,0%,0.6);
   font-family: 'Libre Baskerville', serif;
 }
 
+hr{
+  width: 60%;
+  border-top: 1px solid whitesmoke; /*valamitől fekete lesz*/
+}
+
 .headline{
   color: #d2ba87;
   font-family: 'Great Vibes', cursive;
-  font-size: 5rem;
-}
-
-.textbox{
-  padding: 1.2rem;
-}
-
-.headline{
-  padding: 1rem;
+  font-size: 3.1rem;
+  padding-bottom: 1rem;
 }
 
 .byline, .tagline{
-  padding: 0.3rem;
-  font-size: 1rem;
-  letter-spacing: 0.5rem;
-}
-
-hr{
-  width:  12vw;
+  font-size: 1.3rem;
+  letter-spacing: 0.2rem;
 }
 
 .modul-a, .modul-b{
@@ -95,13 +94,46 @@ hr{
 }
 
 
-@media (min-width: 675px) {
+/* Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  
+  .textbox{
+    width: 50vw; 
+    height: auto;
+  }
+}*/
 
-    .card{
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+  .textbox{
+    width: 50vw; 
+    height: 100vh;
+  }
+
+  .headline{
+    font-size: 7rem;
+    line-height: 10rem;;
+  }
+
+  .byline{
+    text-transform: uppercase;
+    line-height: 1.5rem;
+  }
+
+  .card{
       display: inline-block;
       width: 30vw;
       border: 0px;
     }
+}
 
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
 
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  
 }
