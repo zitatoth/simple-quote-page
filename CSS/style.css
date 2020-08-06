@@ -60,18 +60,48 @@ hr{
 }
 
 .modul-a{
-  
   color: #606060;
 }
 
 .modul-b{
   background-color: #606060;
   color: #d2ba87;
-
 }
 
 .modul-title{
   font-family: 'Great Vibes', cursive;
   font-size: 3rem;  
   padding: 1rem;
+}
+
+.card-holder{
+  display: inline-block;
+}
+
+.card{
+  background: unset;
+  text-align: center;
+}
+
+.card-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.card-img{
+  width: 8rem;
+  margin: 2rem auto;
+}
+
+
+@media (min-width: 675px) {
+
+    .card{
+      display: inline-block;
+      width: 30vw;
+      border: 0px;
+    }
+
+
 }
