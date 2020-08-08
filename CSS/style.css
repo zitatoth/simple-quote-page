@@ -1,6 +1,6 @@
 *{
   box-sizing: border-box;
-  text-align: center;
+/*  text-align: center;*/
 }
 
 body {
@@ -14,10 +14,10 @@ body {
 
 .cover{
   display: table;
-  background: url("https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg") no-repeat center;
+  background: url("https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg") center;
   background-size: cover;
-  height: 100vh;
   width: 100vw;
+  height: 100vh;
 }
 
 .wrapper{
@@ -29,23 +29,22 @@ body {
   width: 100vw; 
   height: auto;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 0.5rem;
   text-align: center;
   color: whitesmoke;
-  background-color: hsla(100,0%,0%,0.6);
+  background-color: hsla(100,0%,0%,0.4);
   font-family: 'Libre Baskerville', serif;
 }
 
 .textbox hr{
   width: 60%;
-  border-top: 1px solid whitesmoke; /*valamitől fekete lesz*/
+  border-top: 1px solid whitesmoke;
 }
 
 .headline{
   color: #d2ba87;
   font-family: 'Great Vibes', cursive;
   font-size: 3.1rem;
-  padding-bottom: 1rem;
 }
 
 .byline, .tagline{
@@ -57,7 +56,7 @@ body {
 /*---------- Moduls ----------*/
 
 .modul-a, .modul-b{
-  padding: 1.6rem 1rem;
+  padding: 2rem 1rem;
   font-family: 'Mulish', sans-serif;
 }
 
@@ -72,12 +71,9 @@ body {
 
 .modul-title{
   font-family: 'Great Vibes', cursive;
-  font-size: 2.8rem; 
+  font-size: 3rem;
   text-align: center;
 }
-
-/*-------------------------------------------------------------------------------*/
-/*---------- Cards ----------*/
 
 .card{
   background: unset;
@@ -88,45 +84,77 @@ body {
 
 .card-title{
   font-family: 'Libre Baskerville', serif;
-  font-size: 1.5rem;
-  letter-spacing: 0.1rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.05rem;
   font-weight: bold;
 }
 
 .card-img{
-  width: 7rem;
+  height: 7.5rem;
+  width: auto;
   margin: 1rem auto;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
-.card p{
-  margin: 0rem;
-}
-
-.card hr{
+.card .grey-hr{
   width: 40%;
-  margin: 0px auto;
-  margin-top: 1rem;
-  border: 2px solid #606060; /*valamitől fekete lesz*/
+  margin: 1rem auto;
+  border: 2px solid #606060;
 }
+
+.card .gold-hr{
+  width: 60%;
+  margin: 1rem auto;
+  border: 2px solid  #d2ba87;
+}
+
+
+/*-------------------------------------------------------------------------------*/
+/*---------- List ----------*/
 
 .italic{
   font-style: italic;
   font-size: 1.1rem;
-  text-align: left;
+  padding-bottom: 0.8rem;
 }
 
-li{
+.list-item{
+  background: unset;
+  line-height: 1.7rem;
+}
+
+.baskerville{
+  font-family: 'Libre Baskerville', serif;
   font-size: 1.2rem;
 }
 
-.left-aligned-text{
-  text-align: left; 
+.smaller-text{
+  font-size: 1.1rem;
 }
 
-.question{
-  font-weight: bold;
+a{
+  color:#bd806e;
 }
+
+a:hover{
+  color:#eda087;
+}
+
+#footer-box{
+  width: 100vw;
+  height: auto;
+  padding:  0.7rem;
+  position: relative;
+	bottom: 0px;
+	right: 0px;
+  background-color: hsla(0, 0.0%, 37.6%, 0.9);
+  color: white;
+  text-align: center;
+  font-size: 0.9rem;
+  
+}
+
 /*Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
   
