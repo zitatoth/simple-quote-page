@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  text-align: center;
 }
 
 body {
@@ -52,6 +53,9 @@ body {
   letter-spacing: 0.2rem;
 }
 
+/*-------------------------------------------------------------------------------*/
+/*---------- Moduls ----------*/
+
 .modul-a, .modul-b{
   padding: 1.6rem 1rem;
   font-family: 'Mulish', sans-serif;
@@ -72,26 +76,31 @@ body {
   text-align: center;
 }
 
+/*-------------------------------------------------------------------------------*/
+/*---------- Cards ----------*/
+
 .card{
-  width: 70vw;
   background: unset;
-  font-size: 1.2rem;
-  line-height: 1.8rem;
   border: 0px;
-  margin: 1rem auto;
-  text-align: center;
+  font-size: 1.2rem;
+  margin: 0px auto;
 }
 
 .card-title{
-  font-size: 1.6rem;
-  font-weight: bold;
   font-family: 'Libre Baskerville', serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
 }
 
 .card-img{
   width: 7rem;
-  margin: 1.2rem auto;
-  margin-bottom: 2.5rem;
+  margin: 1rem auto;
+  margin-bottom: 2rem;
+}
+
+.card p{
+  margin: 0rem;
 }
 
 .card hr{
@@ -104,15 +113,21 @@ body {
 .italic{
   font-style: italic;
   font-size: 1.1rem;
-}
-
-.list-item{
   text-align: left;
-  font-size: 1.2rem;
-  
 }
 
-/* Small devices (landscape phones, 576px and up)
+li{
+  font-size: 1.2rem;
+}
+
+.left-aligned-text{
+  text-align: left; 
+}
+
+.question{
+  font-weight: bold;
+}
+/*Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
   
 }*/
@@ -127,7 +142,7 @@ body {
 
   .headline{
     font-size: 7rem;
-    line-height: 10rem;;
+    line-height: 10rem;
   }
 
   .byline{
@@ -139,13 +154,19 @@ body {
       display: inline-block;
       width: 30vw;
       border: 0px;
-    }
+  }
 
-    .card hr{
-        border: 0px;
-    }
+  .card hr{
+      border: 0px;
+  }
 
-  
+  .program-list{
+    width:  30%;
+    margin: 0px auto;
+
+  }
+
+} 
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
