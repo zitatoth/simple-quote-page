@@ -53,8 +53,7 @@ body {
 }
 
 .modul-a, .modul-b{
-  padding: 2rem;
-  text-align: center;
+  padding: 1.6rem 1rem;
   font-family: 'Mulish', sans-serif;
 }
 
@@ -69,8 +68,8 @@ body {
 
 .modul-title{
   font-family: 'Great Vibes', cursive;
-  font-size: 2.8rem;  
-  padding: 1rem;
+  font-size: 2.8rem; 
+  text-align: center;
 }
 
 .card{
@@ -80,10 +79,11 @@ body {
   line-height: 1.8rem;
   border: 0px;
   margin: 1rem auto;
+  text-align: center;
 }
 
 .card-title{
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: bold;
   font-family: 'Libre Baskerville', serif;
 }
@@ -101,7 +101,16 @@ body {
   border: 2px solid #606060; /*valamitől fekete lesz*/
 }
 
+.italic{
+  font-style: italic;
+  font-size: 1.1rem;
+}
 
+.list-item{
+  text-align: left;
+  font-size: 1.2rem;
+  
+}
 
 /* Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
@@ -135,7 +144,8 @@ body {
     .card hr{
         border: 0px;
     }
-}
+
+  
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
