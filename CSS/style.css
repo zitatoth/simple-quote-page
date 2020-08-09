@@ -144,7 +144,7 @@ a:hover{
 #footer-box{
   width: 100vw;
   height: auto;
-  padding:  0.7rem;
+  padding:  0.8rem;
   position: relative;
 	bottom: 0px;
 	right: 0px;
@@ -152,7 +152,6 @@ a:hover{
   color: white;
   text-align: center;
   font-size: 0.9rem;
-  
 }
 
 /*Small devices (landscape phones, 576px and up)
@@ -179,19 +178,15 @@ a:hover{
   }
 
   .card{
-      display: inline-block;
       width: 30vw;
-      border: 0px;
   }
 
-  .card hr{
-      border: 0px;
+  .card .gold-hr, .card .grey-hr{
+      border: 0px solid blue;
   }
 
   .program-list{
-    width:  30%;
     margin: 0px auto;
-
   }
 
 } 
@@ -199,14 +194,14 @@ a:hover{
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
 
-  .textbox{
-    width: 50vw; 
-    height: auto;
-  }
-
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+
+  .textbox{
+    width: 50vw; 
+    height: auto;
+  }
   
 }
